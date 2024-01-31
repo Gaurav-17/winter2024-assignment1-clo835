@@ -3,8 +3,8 @@ name: Deploy app image to ECR
 on: 
   push:
     branches: [ master ]
-    paths:
-      - app/**
+    
+      
 
 jobs:
   
