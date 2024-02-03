@@ -1,7 +1,11 @@
 name: Deploy db image to ECR
 
-on: workflow_dispatch
-
+on:
+  push:
+    branches:
+    - main
+    paths:
+    - main/db/**
 
 jobs:
   build:
