@@ -7,6 +7,12 @@ on:
     paths:
     - main/app/**
 
+  pull_request:
+    branches:
+    - main
+    paths: 
+    - main/app/**
+
 jobs:
   build:
     name: Build Image
